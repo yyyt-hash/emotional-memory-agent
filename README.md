@@ -71,11 +71,14 @@ This design helps ensure that one user's memories are not retrieved for another 
 
 ```text
 .
-├── main.py
-├── diaries/
-│   └── <user_qq>/
-├── chat_history/
-│   └── <user_qq>.json
-├── requirements.txt
 ├── .env.example
-└── README.md
+├── .gitignore
+├── LICENSE
+├── README.md
+├── main.py
+├── requirements.txt
+├── diaries/
+│   └── <user_qq>/        # generated locally at runtime
+└── chat_history/
+    └── <user_qq>.json    # generated locally at runtime
+
