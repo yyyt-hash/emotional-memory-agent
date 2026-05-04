@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project local data
+chat_history/
+diaries/
+chroma/
+*.db
+*.sqlite3
+
+# Editor settings
+.vscode/
+.idea/
